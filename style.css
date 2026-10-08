@@ -6,14 +6,40 @@
 #logo{
     width: 200px;
 }
+body{
+    background-color: #4d4b4b;
+}
 .nave{
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: ;
+    position: fixed;
+    top: 0;       
+    left: 0;
+    width: 100%;  
+    z-index: 1000;}
+
+#logo{
+    width: 150px;
+}
+.nave{
     
+}
+.paragrafo{
+
 }
 #dive{
    display: flex;
     gap: 40px;
+    background-color: #000000;
 }
+#dive a{
+    color: white;
+    text-decoration: none;
+}
+#dive a:hover{
+    color: rgb(214, 211, 211);
+    text-decoration: underline;
+    transition: 0,5s;
+}
+
