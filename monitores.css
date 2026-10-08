@@ -1,0 +1,18 @@
+*{
+    margin: 0%;
+    padding: 0%;}
+    #logo{
+        width: 200px;
+    }
+    .nave{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+    #dive{
+       display: flex;
+        gap: 40px;
+    }
+
