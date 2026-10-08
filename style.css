@@ -6,3 +6,14 @@
 #logo{
     width: 200px;
 }
+.nave{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: ;
+    
+}
+#dive{
+   display: flex;
+    gap: 40px;
+}
