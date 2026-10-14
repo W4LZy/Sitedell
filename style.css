@@ -1,45 +1,29 @@
 *{
-   margin: 0%;
-   padding: 0%;
-   box-sizing: border-box; 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 #logo{
-    width: 200px;
-}
-body{
-    background-color: #4d4b4b;
-}
-.nave{
+     width: 200px;
+ }
+ .nave{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: black;
+     
+ }
+ #dive{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    top: 0;       
-    left: 0;
-    width: 100%;  
-    z-index: 1000;}
-
-#logo{
-    width: 150px;
-}
-.nave{
-    
-}
-.paragrafo{
-
-}
-#dive{
-   display: flex;
-    gap: 40px;
-    background-color: #000000;
-}
-#dive a{
+     gap: 40px;
+ }
+ a{
     color: white;
     text-decoration: none;
+  
 }
 #dive a:hover{
     color: rgb(214, 211, 211);
     text-decoration: underline;
     transition: 0,5s;
 }
-
