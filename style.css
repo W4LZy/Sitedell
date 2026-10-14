@@ -1,19 +1,29 @@
 *{
-   margin: 0%;
-   padding: 0%;
-   box-sizing: border-box; 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 #logo{
-    width: 200px;
-}
-.nave{
+     width: 200px;
+ }
+ .nave{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: black;
+     
+ }
+ #dive{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    z-index: ;
-    
+     gap: 40px;
+ }
+ a{
+    color: white;
+    text-decoration: none;
+  
 }
-#dive{
-   display: flex;
-    gap: 40px;
+#dive a:hover{
+    color: rgb(214, 211, 211);
+    text-decoration: underline;
+    transition: 0,5s;
 }
