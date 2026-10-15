@@ -23,7 +23,7 @@ body{
     width: 150px;
 }
 .nave{
-    
+    background-color: rgb(0, 0, 0);
 }
 .paragrafo{
 
@@ -31,7 +31,8 @@ body{
 #dive{
    display: flex;
     gap: 40px;
-    background-color: #000000;
+    
+    
 }
 #dive a{
     color: white;
