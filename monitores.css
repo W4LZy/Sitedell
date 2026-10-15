@@ -1,18 +1,73 @@
 *{
     margin: 0%;
-    padding: 0%;}
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nave{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;       
+    left: 0;
+    width: 100%;  
+    z-index: 1000;}
+
     #logo{
-        width: 200px;
-    }
-    .nave{
+    width: 150px;
+}
+
+#dive{
+   display: flex;
+    gap: 40px;
+    
+    
+}
+#dive a{
+    color: white;
+    
+}
+#dive a:hover{
+    color: rgb(214, 211, 211);
+   
+    transition: 0,5s;
+}
+.nave{
+    background-color: rgb(0, 0, 0);
+}
+    .monitores{
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-        
+        flex-direction: row;
+        align-items: stretch;
+        gap: 30px;
+        margin: 100px ;
     }
-    #dive{
-       display: flex;
-        gap: 40px;
+    .cadaum{
+        width: 300px;
+        min-height: 400px;
+        background-color: black;
+        color: aliceblue;
+        width: 400px;
+        text-align: center;
+        border-radius: 30px;
+    }
+  
+    .img{
+        width: 300px;
+    }
+    #Oferta{
+        text-align: center;
+    }
+    button{
+        cursor: pointer;
+        width: 180px;
+        height: 40px;
+        color: aliceblue;
+        background-color: dodgerblue;
+        border: none;
+    }
+    .rodape{
+        background-color: rgb(230, 230, 230);
+        font-family: Arial, Helvetica, sans-serif;
     }
 

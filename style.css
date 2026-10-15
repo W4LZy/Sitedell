@@ -1,46 +1,281 @@
 *{
-   margin: 0%;
-   padding: 0%;
-   box-sizing: border-box; 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 #logo{
-    width: 200px;
-}
-body{
-    background-color: #4d4b4b;
-}
-.nave{
+     width: 200px;
+ }
+ .nave{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: black;
+     
+ }
+ #dive{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    top: 0;       
-    left: 0;
-    width: 100%;  
-    z-index: 1000;}
-
-#logo{
-    width: 150px;
-}
-.nave{
-    background-color: rgb(0, 0, 0);
-}
-.paragrafo{
-
-}
-#dive{
-   display: flex;
-    gap: 40px;
-    
-    
-}
-#dive a{
+     gap: 40px;
+ }
+ a{
     color: white;
-    text-decoration: none;
-}
+ }
 #dive a:hover{
     color: rgb(214, 211, 211);
     text-decoration: underline;
     transition: 0,5s;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+main {
+    padding-top: 80px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 60px 8%;
+    background-color: #f5f6f7;
+}
+
+.banner-texto {
+    flex: 1;
+}
+
+.banner-texto h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.banner-texto p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.banner-imagem {
+    flex: 1;
+    text-align: center;
+}
+
+.banner-imagem img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #0076ce;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #005a9e;
+}
+
+.produtos {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.produtos h2 {
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+.lista-produtos {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.produto {
+    flex: 1;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.produto h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.produto p {
+    margin-bottom: 20px;
+}
+
+.destaque {
+    padding: 60px 8%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: #f5f6f7;
+}
+
+.destaque img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.destaque-texto {
+    flex: 1;
+}
+
+.destaque-texto h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.destaque-texto p {
+    margin-bottom: 25px;
+}
+
+.beneficios {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.beneficios h2 {
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+.lista-beneficios {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.beneficio {
+    flex: 1;
+    padding: 25px;
+    background-color: #f5f6f7;
+    border-radius: 8px;
+}
+
+.beneficio h3 {
+    margin-bottom: 10px;
+    color: #0076ce;
+}
+
+.estudantes {
+    padding: 60px 8%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.estudantes img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.estudantes-texto {
+    flex: 1;
+}
+
+.estudantes-texto h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.estudantes-texto p {
+    margin-bottom: 25px;
+}
+
+.sobre {
+    padding: 60px 8%;
+    text-align: center;
+    background-color: #f5f6f7;
+}
+
+.sobre h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contato {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.contato h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contato p {
+    margin-bottom: 25px;
+}
+
+.chamada {
+    padding: 50px 8%;
+    text-align: center;
+    background-color: #0076ce;
+    color: #fff;
+}
+
+.chamada h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.chamada p {
+    margin-bottom: 25px;
+}
+
+.chamada .botao {
+    background-color: #fff;
+    color: #0076ce;
+}
+
+.chamada .botao:hover {
+    background-color: #e6e6e6;
+}
+
+ .rodape{
+        background-color: rgb(230, 230, 230);
+        font-family: Arial, Helvetica, sans-serif;
+    }

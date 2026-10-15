@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; 
+ }
+ #logo{
+     width: 200px;
+ }
+ .nave{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: black;
+     
+ }
+
+ a{
+    color: white;
+
+ }
+  #dive{
+    display: flex;
+     gap: 40px;
+ }
+ .produtos{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    margin: 40px auto;
+ }
+ .caixaproduto{
+    width: 350px;
+    min-height: 450px;
+    background-color: black;
+    color: aliceblue;
+    width: 400px;
+    text-align: center;
+   border-radius: 30px;
+ }
+ .imgproduto{
+    width: 270px;
+    height: 250px;
+   
+ }
+ h4{
+    color: darkgreen;
+ }
+ .imgproduto9{
+    width: 270px;
+    height: 250px;
+ }
+ .rodape{
+    background-color: rgb(230, 230, 230);
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    cursor: pointer;
+    width: 180px;
+    height: 40px;
+    color: aliceblue;
+    background-color: dodgerblue;
+    border: none;
+ }
