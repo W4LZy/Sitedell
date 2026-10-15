@@ -3,49 +3,45 @@
     padding: 0%;
     box-sizing: border-box;
 }
-#logo{
-     width: 200px;
- }
- .nave{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     background-color: black;
-     
- }
- #dive{
+.nave{
     display: flex;
-     gap: 40px;
- }
- a{
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;       
+    left: 0;
+    width: 100%;  
+    z-index: 1000;}
+
+    #logo{
+    width: 150px;
+}
+
+#dive{
+   display: flex;
+    gap: 40px;
+    
+    
+}
+#dive a{
     color: white;
- }
+    
+}
 #dive a:hover{
     color: rgb(214, 211, 211);
-    text-decoration: underline;
+   
     transition: 0,5s;
 }
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.nave{
+    background-color: rgb(0, 0, 0);
 }
-
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    
     color: #222;
     background-color: #fff;
     line-height: 1.6;
 }
 
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-}
 
 main {
     padding-top: 80px;
@@ -278,4 +274,11 @@ main {
  .rodape{
         background-color: rgb(230, 230, 230);
         font-family: Arial, Helvetica, sans-serif;
+    }
+    h1{
+        font-family: Arial, sans-serif;
+    }
+    P{font-family: Arial, sans-serif;}
+    h2{font-family: Arial, sans-serif;}
+    h3{font-family: Arial, sans-serif;
     }
