@@ -57,8 +57,8 @@ align-items: center;
     color: darkgreen;
  }
  .imgteclado{
-    width: 350px;
-    height: 250px;
+    width: 250px;
+    height: 150px;
  }
  button{
     cursor: pointer;
@@ -72,3 +72,6 @@ align-items: center;
     background-color: rgb(230, 230, 230);
     font-family: Arial, Helvetica, sans-serif;
 }
+ .rodapee{
+   color: rgb(158, 157, 157);
+ }

@@ -47,17 +47,20 @@
     text-align: center;
    border-radius: 30px;
  }
+ .rodapee{
+   color: rgb(158, 157, 157);
+ }
  .imgproduto{
     width: 270px;
     height: 250px;
    
  }
  h4{
-    color: darkgreen;
+    color: rgb(94, 211, 94);
  }
- .imgproduto9{
-    width: 270px;
-    height: 250px;
+ .imgproduto{
+    width: 220px;
+    height: 200px;
  }
  .rodape{
     background-color: rgb(230, 230, 230);
@@ -70,4 +73,8 @@ button{
     color: aliceblue;
     background-color: dodgerblue;
     border: none;
+ }
+ .imgalien{
+   width: 220px;
+   height: 200px;
  }

@@ -202,6 +202,10 @@ main {
     height: auto;
     border-radius: 8px;
 }
+.rodapee{
+    color: rgb(158, 157, 157);
+  }
+  
 
 .estudantes-texto {
     flex: 1;

@@ -70,4 +70,13 @@
         background-color: rgb(230, 230, 230);
         font-family: Arial, Helvetica, sans-serif;
     }
+    p{
+        color: rgb(94, 211, 94) ;
+    }
+    .especificações{
+        color: lightblue;
+    }
+    .rodapee{
+        color: rgb(158, 157, 157);
+      }
 
